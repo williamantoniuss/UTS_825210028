@@ -1,0 +1,123 @@
+@import url(style.css);
+.maps {
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.maps iframe {
+    margin-right: 100px;
+   
+}
+
+.formbawah {
+    width:100%; 
+    display:flex; 
+    justify-content:center;
+    margin-bottom: 90px;
+}
+
+.form {
+    width: 650px; 
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.formbawah .form h1 {
+    font-size: 30px;
+}
+
+.formbawah textarea {
+    width: 650px; 
+    border:1px solid black;
+}
+
+.formbawah .input-form {
+    display: grid; 
+    grid-template-columns: auto auto; 
+    width: 650px; 
+    justify-content: 
+    space-between; 
+    margin-top: 12px;
+}
+
+.formbawah .input-form input {
+    width: 200px;
+    border: 1px solid black;
+    height: 40px;
+    padding: 12px;
+    float: right;
+    margin-bottom: 12px;
+}
+
+.formbawah .input-form .input-name {
+    width: 200px; 
+    border:1px solid black; 
+    padding: 12px; 
+    float: right; 
+    margin-left: -400px;
+    height: 40px;
+}
+
+.formbawah .input-form .input-subject {
+    width: 650px; 
+    padding:12px;
+}
+
+
+.formbawah .kirim-send button {
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 12px;
+      background: #BDC581;
+      color: white;
+      border-radius: 3px;
+}
+
+.formbawah .kirim-send button:hover {
+    background: #EAB543;
+    color:white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+
+.bungkus-dalam {
+    flex-direction: row;
+}
+.bungkus-kiri {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.kananform .gambar-kiri img {
+    width: 50px;
+}
+
+.kananform .bungkus-kiri .tulisan-kanan {
+    margin-bottom: 30px;
+}
+.kananform {
+    margin-left: 90px;
+}
+
+.kananform .tulisan-kanan {
+    display: grid;
+    grid-template-columns: row;
+}
+
+
+
+
+
+
