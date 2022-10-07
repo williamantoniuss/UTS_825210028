@@ -257,7 +257,7 @@ nav ul ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -170px;
+    margin-top: -120px;
 }
 
 .destination .galerikonten h3{
@@ -418,6 +418,7 @@ nav ul ul li a {
 }
 
 .popular-place .galerikonten h3{
+    margin-top: 50px;
     font-size: 32px;
     margin-bottom: 20px;
 }
@@ -600,7 +601,7 @@ nav ul ul li a {
     margin-top: 50px;
 }
 .tulisan p{
-    margin-top: 50px;
+    margin-top: -150px;
     font-size: 30px; font-family: verdana;
     text-align: center;
 }
