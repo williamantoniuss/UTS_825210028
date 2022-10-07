@@ -222,7 +222,7 @@ nav ul ul li a {
 
 .container .content1  button {
     float: left;
-    background-color: ##EAB543;
+    background-color: #EAB543;
     padding: 15px;
     margin: 45px;
     color: black;
@@ -331,7 +331,7 @@ nav ul ul li a {
 
 
 /*content 3 */
-.container .content3 {
+.container-s {
     width: 100%;
     height: 160px;
     background-image: url(./images/xnewsletter.png.pagespeed.ic.Cg612iEyJd.png);
@@ -344,59 +344,60 @@ nav ul ul li a {
     
 }
 
-.container .content3 h6 {
-    float: left;
-    margin-bottom: 60px;
-    margin: 20px;
-    margin-right: 100px;
-    margin-left: 110px;
+.content3 {
+    width: 1000px;
+    height: 100%;
     margin: auto;
-    margin-top: 50px;
-    margin-left: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .content3 .keterangan {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-s .content3 h6 {
+ 
     font-size: medium;
     color: whitesmoke;
     font-size: 23px;
 }
 
-.container .content3 p {
-    margin-top: 60px;
-    margin-left: 320px;
+.container-s .content3 p {
     font-size: 13px;
 }
 
- .container .content3 input {
+ .container-s .content3 input {
     float: left;
     background-color: transparent;
     padding: 15px;
-    margin: 45px;
     color: white;
-    margin: auto;
     padding: 15px;
-    margin-left: -160px;
     border-radius: 15px;
     width: 300px;
     
 
 }
 
-.container .content3-isi {
-    float: left;
-    margin-left: 950px;
-    margin-top: -40px;
+.container-s .content3-isi {
+    display: flex;
+    flex-direction: column;
 }
 
-.container .subscribe {
-    width: 100px;
+.container-s .subscribe {
     padding: 15px;
     background-color: brown;
     color: white;
     border: none;
     border-radius: 8px;
-    margin-left: 15px;
     cursor: pointer;
+
+
 }
 
-.container button:hover {
+.container-s button:hover {
     background-color: sandybrown;
 }
 
