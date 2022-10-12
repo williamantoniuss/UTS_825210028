@@ -1,340 +1,306 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="blog.css">
-</head>
-<body style="overflow-x: hidden;">
+@import url(style.css);
+.galeri-bawah {
+    width:100%; 
+    display:flex; 
+    justify-content:center;
+    margin-bottom: 90px;
+}
 
-    <div class="container">
+.content-galeri{
+    width: 650px; 
+     /* border: 1px #BDC581; */
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+}
 
-             <!--Menu-->
-             <menu>
-                <nav>
-                    <ul>
-                        <li><img src="./images/Willo.jpg" alt="" style="height: 30px; width: 80px; margin-top: -10px; margin-left: -30px;margin-right: 50px; "></li>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Destination</a></li>
-                
-                        <li><a href="#">Pages</a>
-                            <ul>
-                                <li><a href="#">Destinations Details</a></li>
-                                <li><a href="#">Public News</a></li>
-                            </ul>
-                        </li>
-                        
-                        <li><a href="#">Blog</a>
-                            <ul>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Single-Blog</a></li>
-                            </ul>
-                        </li>
+.galeri-bawah .content-galeri h1 {
+    font-size: 30px;
+}
+
+.bungkus-dalam {
+    flex-direction: row;
+}
+.bungkus-kiri {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    background: #BDC581;
+}
+
+.kananform .gambar-kiri img {
+    width: 50px;
+}
+
+
+.kananform {
+    margin-left: 90px;
+    /* border: 1px solid #BDC581; */
+}
+
+.kananform .tulisan-kanan {
+    display: grid;
+    grid-template-columns: row;
+}
+
+
+
+.galeri-bawah  {
+    margin-bottom:90px ;
+
+}
+.galeri-bawah .content-galeri .gambar-kiri img {
+    width: 550px;
+    height: 290px;
+    margin-left: -90px;
+}
+
+.galeri-bawah .content-galeri .gambar-kiri button  {
+    margin-top: -70px;
+    margin-left: -40px;
+    padding: 32px 16px;
+    width: 90px;
+    border-radius: 12px;
+    border: none;
+    background: #BDC581;;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.galeri-bawah .content-galeri .gambar-kiri button:hover {
+    background: transparent;
+}
+
+.galeri-bawah .content-galeri .tulisan-teks  {
+    margin-left: -90px;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.galeri-bawah .content-galeri .tulisan-teks h6 {
+    float: left;
+    margin-left:-10px;
+}
+
+.galeri-bawah .content-galeri .tulisan-teks p {
+    text-align: left;
+    margin-left: -10px;
+}
+
+ .kananform .gambar-kiri {
+    padding: 30px;
+}
+
+.kananform  input  {
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+}
+.kananform  button  {
+    margin-top: 2px;
+    width: 200px;
+    text-align: center;
+    height: 40px;
+    border: 3px 1px 1px;
+    cursor: pointer;
+}
+
+.kategori {
+    background-color: #fbf9ff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #BDC581;
+}
+
+.inkategori {
+    padding: 30px;
+}
+
+.inkategori h3 {
+    text-align: center;
+}
+
+.kanan .kategori {
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.inkategori ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.inkategori a {
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+}
+
+.inkategori a:hover {
+    color: #BDC581;
+}
+
+.bungkus-dalam {
+    padding:30px;
+}
+
+
+
+.kirim  {
+    background: #BDC581;
+}
+
+.gambar-kiri input {
+    margin-bottom: 12px;
     
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </menu>
-            <!--Akhir Menu-->
+}
+.kirim .recent-pos {
+    padding: 30px;
+    border: px #BDC581;
+    color : black;
+    background:white;
+}
+
+.kirim .recent-pos p  {
+    color: black;
+}
+
+.gambar-pos {
+    margin-top: 15px;
+}
+
+.tulisan-post {
+    margin-bottom: 12px;
+}
+
+.kirim .recent-pos .tulisan-post {
+    display: flex;
+    color : white;
+    flex-direction: column;
+    margin-top: -37px;
+    margin-left: 60px;
+}
+
+.kirim .gambar-pos img {
+    width: 50px;
+    height: 50px;
+}
+
+.tag-clouds {
+    margin-top: 15px;
+    border: 1px solid #BDC581;;
+    padding: 30px;
+    margin-bottom:15px;
+    background:white;
+}
+
+.recent-pos h4 {
+    text-align: center;
+}
+.tag-clouds p {
+    cursor: pointer;
+}
+
+.tag-clouds h1 {
+    text-align: center;
+}
+
+.tag-clouds p:hover {
+    background:#BDC581;
     
-            <!--Gambar Kanan Menu-->
-            <div class="search">
-                <a href="#"><img src="./images/Searc.jpg.png"></a>
-            </div>
+}
+
+.tag-clouds .list-tulisan p {   
+    margin-top: 5px;
+    float: left;
+    border: 1px solid white;
+    margin-right: 12px;
+}
+
+.instagram-feeds {
+    margin-top: 1px;
+    background: white;
+    padding: 30px;
+    border: 1px solid #BDC581;
+ 
+}
+
+.instagram-feeds h1 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+
+
+.instagram-feeds .img-feeds img {
+    width: 80px;
+    height: 80px;
     
-            <div class="sosmed">
-                <a href="#"><img src="./images/2515842_black and white_dark grey_google plus_icon.png"></a>
-                <a href="#"><img src="./images/2515845_black and white_dark grey_facebook_icon.png"></a>
-                <a href="#"><img src="./images/5282542_linkedin_network_social network_linkedin logo_icon.png"></a>
-                <a href="#"><img src="./images/2515843_black and white_dark grey_instagram_icon.png"></a>
-            </div>
+}
+
+.newsletter {
+    margin-top: 14px;
+    border: 1px solid #BDC581;
+    padding: 30px;
+    background:white;
+}
+
+.newsletter h1 {
+    text-align: center;
+}
+
+
+.input-news {
+    margin-left: 50px;
+}
+
+/*pagination*/
+.pagination{
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 20px;
+}
+.pagination a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: grey;
+    width: 50px;
+    height: 50px;
+    background-color: whitesmoke;
+    border: 1px solid rgba(255, 255, 255, 0.619);
+}
+.pagination a:hover{
+    background-color: silver;
+    border-radius: 10px;
+    color: white;
+}
+.pagination a.active{
+    color: black;
     
-            <div class="contact">
-                <p>(+62)81218556702</p>
-    
-                <img src="./images/5a4525bd546ddca7e1fcbc83.png">
-            </div>
-            <!--Gambar Kanan Menu Akhir-->
+}
 
-              <!--Gambar Judul Galeri-->
-        <div class="gambargalery" style="">
-            <img src="./images/marc-zimmer-yktwU2t1qHA-unsplash.jpg" style="width: 100%; height:100%;">
-        </div>
-        <!--Akhir Judul gambar Galeri-->
-
-              <!--Judul Galeri-->
-              <div class="container">
-                <div class="judulgambar">
-                    <h3>BLOG</h3>
-                    <p style="font-size: 40px;">_ _ _ _</p>
-                </div>
-            </div>
-            <!--Akhir Judul Galeri-->
-
-<br>
-            <!--Form-->
-            <div class="galeri-bawah" style="">
-                <div class="content-galeri" style="">
-                    
-                    <div class="gambar-kiri">
-                    <img src="./images/introvert.jpg" alt="">
-                    <div class="tombol-gambar">
-                        <button>10 <br> October</button>
-                    </div>
-                </div>
-                    
-                    <div class="tulisan-teks">
-                        <h6>Easy self-care tips for busy introverts</h6><br>
-                        <p>In a friendly tone, I'm sure there are extroverts out there who turn inward to recharge, but I've never met one. For me, the key to feeling happy and energetic is to connect with people and thoughtfully liit my time alone. There are many ways to practice self-care, and as I'm writing this I'm thinking of more than 10 things that I do to take care of myself every single day, but here's 4 easy self-care tips
-                            for busy introverts, first, follow your basic needs, take breaks, get a grip on your energy, and make the most of the environment around you
-                        </p>
-                        <div class="kedua">
-                            <img src="./images/user.png" alt=""> 
-                            <div class="tulisan-kedua">
-                                <p>Lifestyle</p>
-                            </div>
-                            <img src="./images/pesan.png" alt="" style="margin-top: -19px; margin-left: 150px;"> 
-                            <div class="tulisan-kedua">
-                                <p style="margin-top: -18px; margin-right: 250px;">30 Comments</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br>
-
-                    <div class="gambar-kiri">
-                    <img src="./images/lapt.jpg" alt="">
-                    <div class="tombol-gambar">
-                        <button>18 <br> August</button>
-                    </div>
-                </div>
-                    
-                    <div class="tulisan-teks">
-                        <h6>Places to find beautiful stock photography</h6><br>
-                        <p>
-                            Using stock photgraphy is a great way to build up your professional presence online. But finding a perfect one to use can be a tiring task, especially if you are looking for styled stock
-                            photography. It is important to choose the right stock photo because it is part of your brand and entire online presence. Also, people will associate the photos with your brand. Your brand will have a certain look that you will try to maintain. 
-                        </p>
-                        <div class="kedua">
-                            <img src="./images/user.png" alt=""> 
-                            <div class="tulisan-kedua">
-                                <p>Photography</p>
-                            </div>
-                            <img src="./images/pesan.png" alt="" style="margin-top: -19px; margin-left: 150px;"> 
-                            <div class="tulisan-kedua">
-                                <p style="margin-top: -18px; margin-right: 250px;">15 Comments</p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <br>
-
-                    <div class="gambar-kiri">
-                    <img src="./images/face.jpg" alt="">
-                    <div class="tombol-gambar">
-                        <button>15 <br> July</button>
-                    </div>
-                </div>
-                    
-                    <div class="tulisan-teks">
-                        <h6>How to make any day your Sunday self care day</h6><br>
-                        <p>We have been witnessing how much has self care transformed over the last few years. It began as a way to encourage people to do more  for themselves,
-                            which is amazing. But somewhere along the way, it became something people felt like they were forced to do. If you are feeling a little overwhelmed with
-                            this idea of the perfect self care routine, it's time to take a step back.Insteaed of focusing on having to fit in into your daily life, why not?
-                        </p>
-                        <div class="kedua">
-                            <img src="./images/user.png" alt=""> 
-                            <div class="tulisan-kedua">
-                                <p>Lifestyle</p>
-                            </div>
-                            <img src="./images/pesan.png" alt="" style="margin-top: -19px; margin-left: 150px;"> 
-                            <div class="tulisan-kedua">
-                                <p style="margin-top: -18px; margin-right: 250px;">28 Comments</p>
-                            </div>
-                        </div>
-                    </div>
-                   
-                    <div class="pagination">
-                        <a href="#">&laquo;</a>
-                        <a href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                        <a href="#">&raquo;</a>
-
-                    </div>
-                </div>
-    
-                <!-- Kanan -->
-                <div class="kananform">
-                    <div class="bungkus-kiri">
-
-                   
-                    <div class="bungkus-dalam"></div>
-                    <div class="gambar-kiri" style="border: 1px solid #BDC581;">
-                        <input type="text" name="" id="" placeholder=" Search Keyword">
-                    <div class="kirim">
-                        <button> SEND</button>
-                    </div>
-                    </div>
-
-                    <div class="bungkus-dalam"></div>
-                    <div class="gambar-kiri">
-                        <div class="kategori">
-                            <div class="inkategori">
-                                <div class="tulisan">
-                                <h3>Category</h3>
-                                </div>
-                            <ul>
-                                <li><a href="#">DIY Craft (37)</a></li>
-                                <li><a href="#">Photography (10)</a></li>
-                                <li><a href="#">Lifestyle (14)</a></li>
-                 
-                                <li><a href="#">Inspiration (21)</a></li>
-                                <li><a href="#">Food (20)</a></li>
-                            </ul>
-                            </div>
-                        </div>
-                    <div class="kirim">
-                        <div class="recent-pos">
-                            <h4>Recent Post</h4>
-                            <div class="gambar-pos">
-
-                                <img src="./images/banana.jpg" alt="">
-                                <div class="tulisan-post">
-                                    <p>Ba ba ba ba na na </p>
-                                    <p>OCtober 2, 2022</p>
-                                </div>
-
-                                <img src="./images/orange.jpg" alt="">
-                                <div class="tulisan-post">
-                                    <p>I hate orange & I don't know why</p>
-                                    <p>May 23, 2022</p>
-                                </div>
-
-                                <img src="./images/strawberry.jpg" alt="">
-                                <div class="tulisan-post">
-                                    <p>Strawberry shortcake orange blossom</p>
-                                    <p>February 28, 2022</p>
-                                </div>
-                                
-                                <img src="./images/peach.jpg" alt="">
-                                <div class="tulisan-post">
-                                    <p>Reliance Peach Tree</p>
-                                    <p>January 12, 2022</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tag-clouds">
-                        <div class="judul-tag">
-                            <h1>Tag Clouds</h1>
-                            
-                            <div class="list-tulisan">
-                                <p>Food</p>
-                                <p>Travel</p>
-                                <p>Technology</p>
-                                <br><br>
-                                <p>Product</p>
-                                <p>Health Care</p>
-                                <p>Life style</p>
-                                <br><br>
-                                <p>Design</p>
-                                <p>Project</p>
-                           
-                            </div>
-                        </div>
-                    </div>
+.kedua img {
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    margin-top: 1px;
+    background: #BDC581;
+}
 
 
-                    <div class="instagram-feeds">
-                        <div class="judul-feeds">
-                            <h1>Instagram Feeds</h1>
-                        </div>
-                        <div class="img-feeds" style="margin-left: 24px;">
-                            <img src="./images/satu.jpg" alt="">
-                            <img src="./images/dua.jpg" alt="">
-                            <img src="./images/tiga.jpg" alt="">
-                            <br>
-                            <img src="./images/empat.jpg" alt="">
-                            <img src="./images/lima.jpg" alt="">
-                            <img src="./images/enam.jpg" alt="">
-                            <br>
-                            <img src="./images/empat.jpg" alt="">
-                            <img src="./images/lima.jpg" alt="">
-                            <img src="./images/enam.jpg" alt="">
-                        </div>
-                    </div>
+.kedua .tulisan-kedua p {
+    margin-top: -18px;
+    display: flex;
+    justify-content: center;
+    margin-right: 550px;
 
-                    <div class="newsletter">
-                        <div class="judulnews">
-                            <h1>Newsletter</h1>
-                        </div>
-
-                        <div class="input-news">
-                            <input type="text" name="" id="">
-                            <br>
-                            <button>Subscribe</button>
-                        </div>
-
-                    </div>
-                </div>            
-                    </div>
-                </div>
-            </div>
-
-     
-            <footer>
-                <div class="foot1">
-                    <img src="./images/wiloo.jpg" alt="" style="width: 120px; height: auto;">
-                    <h1 class="logo2"></h1><br><br><br>
-                    <p>S Parman Street
-                       Grogol Petamburan
-                       +82 5210028
-                       willo@untar.ac.id
-                    </p>
-                    <a href="#"><img src="./images/2515843_black and white_dark grey_instagram_icon.png" alt=""></a>
-                    <a href="#"><img src="./images/2515842_black and white_dark grey_google plus_icon.png" alt=""></a>
-                    <a href="#"><img src="./images/2515845_black and white_dark grey_facebook_icon.png" alt=""></a>
-                    <a href="#"><img src="./images/5282542_linkedin_network_social network_linkedin logo_icon.png" alt=""></a>
-                </div>
-                <div class="foot2">
-                    <h1>Company</h1><br><br><br><br>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Galery</a></li>
-                    <li><a href="#">Contact</a></li>
-                </div>       
-                <div class="foot3">
-                    <h1>Popular destination</h1>
-                    <li><a href="#">Bali</a></li>
-                    <li><a href="#">Labuan Bajo</a></li>
-                    <li><a href="#">Lombok</a></li>
-                    <li><a href="#">Sumba</a></li>
-                    <li><a href="#">Way Kambas</a></li>
-                    <li><a href="#">Raja Ampar</a></li>
-                    <li><a href="#">Wakatobi</a></li>
-                    <li><a href="#">Gili Trawangan</a></li>  
-                </div>
-                <div class="foot4">
-                    <h1>Instagram</h1>
-                    <a href="#"><img src="./images/satu.jpg" alt=""></a>
-                    <a href="#"><img src="./images/dua.jpg" alt=""></a>
-                    <a href="#"><img src="./images/tiga.jpg" alt=""></a>
-                    <br>
-                    <a href="#"><img src="./images/empat.jpg" alt=""></a>
-                    <a href="#"><img src="./images/lima.jpg" alt=""></a>
-                    <a href="#"><img src="./images/enam.jpg" alt=""></a>
-                </div>
-                <div class="bawah" style="display: grid; margin-top:400px; text-align: center; display: flex; justify-content: center;">
-                    <h1 style="text-align: center; display:flex;  justify-content: center;">copyright &#169; 2022</h1>
-                </div>
-                </footer>
-            
-    </div><!--Akhir Container-->
-    
-    
-</body>
-</html>
+}
