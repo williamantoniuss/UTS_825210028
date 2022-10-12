@@ -178,7 +178,7 @@ nav ul ul li a {
 
 
 .judulgambar button:hover {
-    background-color: #EAB543;
+    background-color: #BDC581;;
     color : black;
 }
 
@@ -475,11 +475,11 @@ nav ul ul li a {
 }
 
 .popular-place .galeri .konten .keterangan:hover p{
-    color: brown;
+    color: lightgrey;
 }
 
 .popular-place .galeri .konten .keterangan:hover a{
-    background-color: brown;
+    background-color: lightgrey;
 }
 
 
@@ -743,7 +743,7 @@ footer img {
 }
 
 .foot3 a:hover {
-    color: blue;
+    color: brown;
 }
 
 .foot4 {
